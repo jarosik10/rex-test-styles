@@ -1,201 +1,122 @@
-#main-content > h1 {
+h1 {
   color: #333;
   margin: 1.5rem 0 1rem 0;
   font-weight: bold; }
 
-#main-content > h2 {
-  color: #333;
-  font-size: 3.2rem;
-  margin: 1.5rem 0 1rem 0;
-  font-weight: bold; }
-
-#main-content > h3 {
-  color: #333;
-  font-size: 2.4rem;
-  margin: 1.5rem 0 1rem 0;
-  font-weight: bold; }
-
-#main-content > h4 {
-  color: #333;
-  font-size: 1.8rem;
-  margin: 1.5rem 0 1rem 0;
-  font-weight: bold; }
-
-#main-content > h5 {
-  color: #333;
-  font-size: 2.4rem;
-  margin: 1.5rem 0 1rem 0;
-  font-weight: bold; }
-
-#main-content > h6 {
-  color: #333;
-  font-size: 2.4rem;
-  margin: 1.5rem 0 1rem 0;
-  font-weight: bold; }
-
-#main-content p {
-  color: #424242;
-  margin: 1rem 0 0; }
-
-#main-content p > [data-type="title"] {
-  display: block;
-  font-weight: bold; }
-
-#main-content p > .title {
-  display: block;
-  font-weight: bold; }
-
-.content-excerpt > h1 {
-  color: #333;
-  margin: 1.5rem 0 1rem 0;
-  font-weight: bold; }
-
-.content-excerpt > h2 {
+h2 {
   color: #333;
   font-size: 3.2rem;
   margin: 1.5rem 0 1rem 0;
   font-weight: bold; }
 
-.content-excerpt > h3 {
+h3 {
   color: #333;
   font-size: 2.4rem;
   margin: 1.5rem 0 1rem 0;
   font-weight: bold; }
 
-.content-excerpt > h4 {
+h4 {
   color: #333;
   font-size: 1.8rem;
   margin: 1.5rem 0 1rem 0;
   font-weight: bold; }
 
-.content-excerpt > h5 {
+h5 {
   color: #333;
   font-size: 2.4rem;
   margin: 1.5rem 0 1rem 0;
   font-weight: bold; }
 
-.content-excerpt > h6 {
+h6 {
   color: #333;
   font-size: 2.4rem;
   margin: 1.5rem 0 1rem 0;
   font-weight: bold; }
 
-.content-excerpt p {
+p {
   color: #424242;
   margin: 1rem 0 0; }
 
-.content-excerpt p > [data-type="title"] {
+p > [data-type="title"] {
   display: block;
   font-weight: bold; }
 
-.content-excerpt p > .title {
+p > .title {
   display: block;
   font-weight: bold; }
 
-#main-content .os-eoc h2[data-type="document-title"] {
+.os-eoc h2[data-type="document-title"] {
   font-size: 2.1rem;
   font-weight: bold; }
 
-#main-content .os-eoc h2[data-type="document-title"] .os-number {
+.os-eoc h2[data-type="document-title"] .os-number {
   font-weight: bold;
   text-decoration: none; }
 
-#main-content .os-eoc h2.os-title {
+.os-eoc h2.os-title {
   font-size: 2.1rem;
   font-weight: bold; }
 
-#main-content .os-eoc h2.os-title .os-number {
+.os-eoc h2.os-title .os-number {
   font-weight: bold;
   text-decoration: none; }
 
-.content-excerpt .os-eoc h2[data-type="document-title"] {
+.os-eob h2[data-type="document-title"] {
   font-size: 2.1rem;
   font-weight: bold; }
 
-.content-excerpt .os-eoc h2[data-type="document-title"] .os-number {
+.os-eob h2[data-type="document-title"] .os-number {
   font-weight: bold;
   text-decoration: none; }
 
-.content-excerpt .os-eoc h2.os-title {
+.os-eob h2.os-title {
   font-size: 2.1rem;
   font-weight: bold; }
 
-.content-excerpt .os-eoc h2.os-title .os-number {
+.os-eob h2.os-title .os-number {
   font-weight: bold;
   text-decoration: none; }
 
-#main-content .os-eob h2[data-type="document-title"] {
-  font-size: 2.1rem;
-  font-weight: bold; }
-
-#main-content .os-eob h2[data-type="document-title"] .os-number {
-  font-weight: bold;
-  text-decoration: none; }
-
-#main-content .os-eob h2.os-title {
-  font-size: 2.1rem;
-  font-weight: bold; }
-
-#main-content .os-eob h2.os-title .os-number {
-  font-weight: bold;
-  text-decoration: none; }
-
-.content-excerpt .os-eob h2[data-type="document-title"] {
-  font-size: 2.1rem;
-  font-weight: bold; }
-
-.content-excerpt .os-eob h2[data-type="document-title"] .os-number {
-  font-weight: bold;
-  text-decoration: none; }
-
-.content-excerpt .os-eob h2.os-title {
-  font-size: 2.1rem;
-  font-weight: bold; }
-
-.content-excerpt .os-eob h2.os-title .os-number {
-  font-weight: bold;
-  text-decoration: none; }
-
-#main-content figure {
+figure {
   position: relative;
   text-align: center;
   margin: 0; }
 
-#main-content figure > [data-type="media"] {
+figure > [data-type="media"] {
   display: block;
   margin: 0;
   text-align: center; }
 
-#main-content figure > .media {
+figure > .media {
   display: block;
   margin: 0;
   text-align: center; }
 
-#main-content figure img {
+figure img {
   max-width: 100%;
   margin: 0; }
 
-#main-content figure .scaled-down {
+figure .scaled-down {
   width: 60%;
   margin: auto; }
 
-#main-content figure .scaled-down ~ .os-caption-container {
+figure .scaled-down ~ .os-caption-container {
   width: 60%;
   margin: auto; }
 
-#main-content figure .scaled-down-30 {
+figure .scaled-down-30 {
   width: 30%;
   margin: auto; }
 
-#main-content figure .scaled-down-30 ~ .os-caption-container {
+figure .scaled-down-30 ~ .os-caption-container {
   width: 60%;
   margin: auto; }
 
-#main-content .os-figure {
+.os-figure {
   display: table;
   margin: 3rem auto; }
 
-#main-content .os-figure .os-caption-container {
+.os-figure .os-caption-container {
   display: table-caption;
   padding-top: 1rem;
   color: #424242;
@@ -203,113 +124,35 @@
   line-height: 1.7rem;
   caption-side: bottom; }
 
-#main-content .os-figure .os-caption-container > .os-title-label {
+.os-figure .os-caption-container > .os-title-label {
   font-weight: bold; }
 
-#main-content .os-figure .os-caption-container > .os-title-label {
+.os-figure .os-caption-container > .os-title-label {
   font-weight: bold; }
 
-#main-content .os-figure .os-caption-container > .os-number {
+.os-figure .os-caption-container > .os-number {
   font-weight: bold; }
 
-#main-content img {
+img {
   max-width: 100%;
   margin-top: 1em;
   margin-bottom: 1em; }
 
-#main-content span[data-type="media"] img {
+span[data-type="media"] img {
   display: block; }
 
-#main-content:not(figure) > [data-type="media"].scaled-down {
+:not(figure) > [data-type="media"].scaled-down {
   display: block;
   text-align: center; }
 
-#main-content:not(figure) > [data-type="media"].scaled-down img {
+:not(figure) > [data-type="media"].scaled-down img {
   width: 60%; }
 
-#main-content:not(figure) > [data-type="media"].scaled-down-30 {
+:not(figure) > [data-type="media"].scaled-down-30 {
   display: block;
   text-align: center; }
 
-#main-content:not(figure) > [data-type="media"].scaled-down-30 img {
-  width: 30%; }
-
-.content-excerpt figure {
-  position: relative;
-  text-align: center;
-  margin: 0; }
-
-.content-excerpt figure > [data-type="media"] {
-  display: block;
-  margin: 0;
-  text-align: center; }
-
-.content-excerpt figure > .media {
-  display: block;
-  margin: 0;
-  text-align: center; }
-
-.content-excerpt figure img {
-  max-width: 100%;
-  margin: 0; }
-
-.content-excerpt figure .scaled-down {
-  width: 60%;
-  margin: auto; }
-
-.content-excerpt figure .scaled-down ~ .os-caption-container {
-  width: 60%;
-  margin: auto; }
-
-.content-excerpt figure .scaled-down-30 {
-  width: 30%;
-  margin: auto; }
-
-.content-excerpt figure .scaled-down-30 ~ .os-caption-container {
-  width: 60%;
-  margin: auto; }
-
-.content-excerpt .os-figure {
-  display: table;
-  margin: 3rem auto; }
-
-.content-excerpt .os-figure .os-caption-container {
-  display: table-caption;
-  padding-top: 1rem;
-  color: #424242;
-  font-size: 1.2rem;
-  line-height: 1.7rem;
-  caption-side: bottom; }
-
-.content-excerpt .os-figure .os-caption-container > .os-title-label {
-  font-weight: bold; }
-
-.content-excerpt .os-figure .os-caption-container > .os-title-label {
-  font-weight: bold; }
-
-.content-excerpt .os-figure .os-caption-container > .os-number {
-  font-weight: bold; }
-
-.content-excerpt img {
-  max-width: 100%;
-  margin-top: 1em;
-  margin-bottom: 1em; }
-
-.content-excerpt span[data-type="media"] img {
-  display: block; }
-
-.content-excerpt:not(figure) > [data-type="media"].scaled-down {
-  display: block;
-  text-align: center; }
-
-.content-excerpt:not(figure) > [data-type="media"].scaled-down img {
-  width: 60%; }
-
-.content-excerpt:not(figure) > [data-type="media"].scaled-down-30 {
-  display: block;
-  text-align: center; }
-
-.content-excerpt:not(figure) > [data-type="media"].scaled-down-30 img {
+:not(figure) > [data-type="media"].scaled-down-30 img {
   width: 30%; }
 
 /*# sourceMappingURL=webview-generic.css.map */
