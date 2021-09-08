@@ -265,7 +265,7 @@ a:hover {
   text-transform: uppercase; }
 
 [data-type="note"] > section {
-  padding: 0rem;
+  padding: 0rem 1.5rem;
   border-top: none;
   background-color: #ededed;
   color: #555; }
@@ -325,7 +325,7 @@ a:hover {
   text-transform: uppercase; }
 
 .note > section {
-  padding: 0rem;
+  padding: 0rem 1.5rem;
   border-top: none;
   background-color: #ededed;
   color: #555; }
@@ -385,7 +385,7 @@ a:hover {
   text-transform: uppercase; }
 
 [data-type="example"] > section {
-  padding: 0rem;
+  padding: 0rem 1.5rem;
   border-top: none;
   background-color: #ededed;
   color: #555; }
@@ -445,7 +445,7 @@ a:hover {
   text-transform: uppercase; }
 
 .example > section {
-  padding: 0rem;
+  padding: 0rem 1.5rem;
   border-top: none;
   background-color: #ededed;
   color: #555; }
