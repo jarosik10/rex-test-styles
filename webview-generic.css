@@ -222,7 +222,7 @@ a:hover {
   border-color: #dcdcdc;
   background-color: #ededed; }
 
-[data-type="note"].ui-has-child-title > [data-type="title"] {
+[data-type="note"] > [data-type="title"] {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -254,7 +254,7 @@ a:hover {
   border-color: #dcdcdc;
   background-color: #ededed; }
 
-.note.ui-has-child-title > [data-type="title"] {
+.note > [data-type="title"] {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -286,7 +286,7 @@ a:hover {
   border-color: #dcdcdc;
   background-color: #ededed; }
 
-[data-type="example"].ui-has-child-title > [data-type="title"] {
+[data-type="example"] > [data-type="title"] {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -318,7 +318,7 @@ a:hover {
   border-color: #dcdcdc;
   background-color: #ededed; }
 
-.example.ui-has-child-title > [data-type="title"] {
+.example > [data-type="title"] {
   display: block;
   margin-top: 0;
   margin-bottom: 1rem;
