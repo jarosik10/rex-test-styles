@@ -572,4 +572,168 @@ a:hover {
   display: block;
   margin: 1rem 0; }
 
+[data-type="example"] [data-type="problem"] {
+  padding: 0.5em 1em; }
+
+[data-type="example"] .problem {
+  padding: 0.5em 1em; }
+
+[data-type="example"] [data-type="solution"] {
+  padding: 0.5em 1em;
+  border-top-width: 0.1rem;
+  border-top-color: #dcdcdc;
+  border-top-style: solid; }
+
+[data-type="example"] [data-type="solution"] > .ui-toggle-wrapper {
+  text-align: center; }
+
+[data-type="example"] [data-type="solution"] > .ui-toggle-wrapper > .ui-toggle {
+  font-weight: bold;
+  text-align: center; }
+
+[data-type="example"] .solution {
+  padding: 0.5em 1em;
+  border-top-width: 0.1rem;
+  border-top-color: #dcdcdc;
+  border-top-style: solid; }
+
+[data-type="example"] .solution > .ui-toggle-wrapper {
+  text-align: center; }
+
+[data-type="example"] .solution > .ui-toggle-wrapper > .ui-toggle {
+  font-weight: bold;
+  text-align: center; }
+
+[data-type="example"].ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Hide Solution]"; }
+
+[data-type="example"]:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Show Solution]"; }
+
+[data-type="example"]:not(.ui-solution-visible) > section {
+  display: none; }
+
+.example [data-type="problem"] {
+  padding: 0.5em 1em; }
+
+.example .problem {
+  padding: 0.5em 1em; }
+
+.example [data-type="solution"] {
+  padding: 0.5em 1em;
+  border-top-width: 0.1rem;
+  border-top-color: #dcdcdc;
+  border-top-style: solid; }
+
+.example [data-type="solution"] > .ui-toggle-wrapper {
+  text-align: center; }
+
+.example [data-type="solution"] > .ui-toggle-wrapper > .ui-toggle {
+  font-weight: bold;
+  text-align: center; }
+
+.example .solution {
+  padding: 0.5em 1em;
+  border-top-width: 0.1rem;
+  border-top-color: #dcdcdc;
+  border-top-style: solid; }
+
+.example .solution > .ui-toggle-wrapper {
+  text-align: center; }
+
+.example .solution > .ui-toggle-wrapper > .ui-toggle {
+  font-weight: bold;
+  text-align: center; }
+
+.example.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Hide Solution]"; }
+
+.example:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Show Solution]"; }
+
+.example:not(.ui-solution-visible) > section {
+  display: none; }
+
+[data-type="exercise"] [data-type="problem"] {
+  padding: 0.5em 1em; }
+
+[data-type="exercise"] .problem {
+  padding: 0.5em 1em; }
+
+[data-type="exercise"] [data-type="solution"] {
+  padding: 0.5em 1em;
+  border-top-width: 0.1rem;
+  border-top-color: #dcdcdc;
+  border-top-style: solid; }
+
+[data-type="exercise"] [data-type="solution"] > .ui-toggle-wrapper {
+  text-align: center; }
+
+[data-type="exercise"] [data-type="solution"] > .ui-toggle-wrapper > .ui-toggle {
+  font-weight: bold;
+  text-align: center; }
+
+[data-type="exercise"] .solution {
+  padding: 0.5em 1em;
+  border-top-width: 0.1rem;
+  border-top-color: #dcdcdc;
+  border-top-style: solid; }
+
+[data-type="exercise"] .solution > .ui-toggle-wrapper {
+  text-align: center; }
+
+[data-type="exercise"] .solution > .ui-toggle-wrapper > .ui-toggle {
+  font-weight: bold;
+  text-align: center; }
+
+[data-type="exercise"].ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Hide Solution]"; }
+
+[data-type="exercise"]:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Show Solution]"; }
+
+[data-type="exercise"]:not(.ui-solution-visible) > section {
+  display: none; }
+
+.exercise [data-type="problem"] {
+  padding: 0.5em 1em; }
+
+.exercise .problem {
+  padding: 0.5em 1em; }
+
+.exercise [data-type="solution"] {
+  padding: 0.5em 1em;
+  border-top-width: 0.1rem;
+  border-top-color: #dcdcdc;
+  border-top-style: solid; }
+
+.exercise [data-type="solution"] > .ui-toggle-wrapper {
+  text-align: center; }
+
+.exercise [data-type="solution"] > .ui-toggle-wrapper > .ui-toggle {
+  font-weight: bold;
+  text-align: center; }
+
+.exercise .solution {
+  padding: 0.5em 1em;
+  border-top-width: 0.1rem;
+  border-top-color: #dcdcdc;
+  border-top-style: solid; }
+
+.exercise .solution > .ui-toggle-wrapper {
+  text-align: center; }
+
+.exercise .solution > .ui-toggle-wrapper > .ui-toggle {
+  font-weight: bold;
+  text-align: center; }
+
+.exercise.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Hide Solution]"; }
+
+.exercise:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Show Solution]"; }
+
+.exercise:not(.ui-solution-visible) > section {
+  display: none; }
+
 /*# sourceMappingURL=webview-generic.css.map */
