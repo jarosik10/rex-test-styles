@@ -591,6 +591,15 @@ a:hover {
   font-weight: bold;
   text-align: center; }
 
+[data-type="example"] [data-type="solution"].ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Hide Solution]"; }
+
+[data-type="example"] [data-type="solution"]:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Show Solution]"; }
+
+[data-type="example"] [data-type="solution"]:not(.ui-solution-visible) > section {
+  display: none; }
+
 [data-type="example"] .solution {
   padding: 0.5em 1em;
   border-top-width: 0.1rem;
@@ -604,13 +613,13 @@ a:hover {
   font-weight: bold;
   text-align: center; }
 
-[data-type="example"].ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+[data-type="example"] .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
   content: "[Hide Solution]"; }
 
-[data-type="example"]:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+[data-type="example"] .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
   content: "[Show Solution]"; }
 
-[data-type="example"]:not(.ui-solution-visible) > section {
+[data-type="example"] .solution:not(.ui-solution-visible) > section {
   display: none; }
 
 .example [data-type="problem"] {
@@ -632,6 +641,15 @@ a:hover {
   font-weight: bold;
   text-align: center; }
 
+.example [data-type="solution"].ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Hide Solution]"; }
+
+.example [data-type="solution"]:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Show Solution]"; }
+
+.example [data-type="solution"]:not(.ui-solution-visible) > section {
+  display: none; }
+
 .example .solution {
   padding: 0.5em 1em;
   border-top-width: 0.1rem;
@@ -645,13 +663,13 @@ a:hover {
   font-weight: bold;
   text-align: center; }
 
-.example.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+.example .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
   content: "[Hide Solution]"; }
 
-.example:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+.example .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
   content: "[Show Solution]"; }
 
-.example:not(.ui-solution-visible) > section {
+.example .solution:not(.ui-solution-visible) > section {
   display: none; }
 
 [data-type="exercise"] [data-type="problem"] {
@@ -673,6 +691,15 @@ a:hover {
   font-weight: bold;
   text-align: center; }
 
+[data-type="exercise"] [data-type="solution"].ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Hide Solution]"; }
+
+[data-type="exercise"] [data-type="solution"]:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Show Solution]"; }
+
+[data-type="exercise"] [data-type="solution"]:not(.ui-solution-visible) > section {
+  display: none; }
+
 [data-type="exercise"] .solution {
   padding: 0.5em 1em;
   border-top-width: 0.1rem;
@@ -686,13 +713,13 @@ a:hover {
   font-weight: bold;
   text-align: center; }
 
-[data-type="exercise"].ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+[data-type="exercise"] .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
   content: "[Hide Solution]"; }
 
-[data-type="exercise"]:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+[data-type="exercise"] .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
   content: "[Show Solution]"; }
 
-[data-type="exercise"]:not(.ui-solution-visible) > section {
+[data-type="exercise"] .solution:not(.ui-solution-visible) > section {
   display: none; }
 
 .exercise [data-type="problem"] {
@@ -714,6 +741,15 @@ a:hover {
   font-weight: bold;
   text-align: center; }
 
+.exercise [data-type="solution"].ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Hide Solution]"; }
+
+.exercise [data-type="solution"]:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+  content: "[Show Solution]"; }
+
+.exercise [data-type="solution"]:not(.ui-solution-visible) > section {
+  display: none; }
+
 .exercise .solution {
   padding: 0.5em 1em;
   border-top-width: 0.1rem;
@@ -727,13 +763,13 @@ a:hover {
   font-weight: bold;
   text-align: center; }
 
-.exercise.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
+.exercise .solution.ui-solution-visible > .ui-toggle-wrapper > button.ui-toggle::before {
   content: "[Hide Solution]"; }
 
-.exercise:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
+.exercise .solution:not(.ui-solution-visible) > .ui-toggle-wrapper > button.ui-toggle::before {
   content: "[Show Solution]"; }
 
-.exercise:not(.ui-solution-visible) > section {
+.exercise .solution:not(.ui-solution-visible) > section {
   display: none; }
 
 /*# sourceMappingURL=webview-generic.css.map */
