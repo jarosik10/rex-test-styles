@@ -20,6 +20,21 @@ button, input, optgroup, select, textarea {
   font: inherit;
   margin: 0; }
 
+sup {
+  top: -.5em; }
+
+sub {
+  bottom: -.25em; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+pre {
+  text-align: left; }
+
 h1 {
   color: #333;
   margin: 1.5rem 0 1rem 0;
@@ -203,6 +218,63 @@ ol {
   list-style-type: none;
   padding-left: 2rem; }
 
+.preface ul {
+  list-style-type: none; }
+
+.stepwise {
+  list-style-type: none;
+  padding-left: 0; }
+
+.stepwise > li {
+  display: flex; }
+
+.stepwise > li .os-stepwise-token {
+  white-space: pre; }
+
+.stepwise > li > .os-stepwise-content > ul {
+  padding-left: 1rem; }
+
+.stepwise > li > .os-stepwise-content > ol {
+  padding-left: 1rem; }
+
+.os-stepwise {
+  list-style-type: none;
+  padding-left: 0; }
+
+.os-stepwise > li {
+  display: flex; }
+
+.os-stepwise > li .os-stepwise-token {
+  white-space: pre; }
+
+.os-stepwise > li > .os-stepwise-content > ul {
+  padding-left: 1rem; }
+
+.os-stepwise > li > .os-stepwise-content > ol {
+  padding-left: 1rem; }
+
+.list {
+  overflow-wrap: break-word; }
+
+.list .title {
+  font-weight: bold;
+  margin-top: 15px; }
+
+.list [data-type="title"] {
+  font-weight: bold;
+  margin-top: 15px; }
+
+[data-type="list"] {
+  overflow-wrap: break-word; }
+
+[data-type="list"] .title {
+  font-weight: bold;
+  margin-top: 15px; }
+
+[data-type="list"] [data-type="title"] {
+  font-weight: bold;
+  margin-top: 15px; }
+
 .learning-objectives {
   margin: 3rem 0;
   padding: 1.5rem;
@@ -228,6 +300,26 @@ ol {
 .learning-objectives p {
   margin: 0 0 1rem 1.5rem;
   color: #555; }
+
+.abstract {
+  position: relative;
+  margin: 3rem 6rem 0 6rem;
+  padding: 4.5rem 1.5rem 1.5rem 1.5rem;
+  background-color: #ededed; }
+
+.abstract ul {
+  margin: 1.5rem 0 0 0; }
+
+.abstract ul::after {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  color: #424242;
+  font-size: 1.7rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  content: Abstract; }
 
 a {
   color: #027EB5;
@@ -1176,5 +1268,13 @@ a:hover {
 
 .exercise.conceptual-questions .problem p {
   margin: 0; }
+
+blockquote {
+  font-size: 16px;
+  padding: 1rem 2rem;
+  margin: 1rem 0 2rem;
+  border-left-width: 0.5rem;
+  border-left-style: solid;
+  border-left-color: #dcdcdc; }
 
 /*# sourceMappingURL=webview-generic.css.map */
