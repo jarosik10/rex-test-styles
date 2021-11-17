@@ -35,6 +35,9 @@ sub, sup {
 pre {
   text-align: left; }
 
+u[data-effect="double-underline"] {
+  text-decoration-style: double; }
+
 h1 {
   color: #333;
   margin: 1.5rem 0 1rem 0;
@@ -1501,6 +1504,19 @@ code {
 
 .coreq-skills .os-coreq-exercises .os-problem-container > p:first-child {
   display: inline; }
+
+.footnote {
+  font-size: 1rem; }
+
+[data-type="footnote-refs"] {
+  margin-top: 6rem; }
+
+[data-type="footnote-refs"] [data-type="footnote-ref"] {
+  padding-left: 27px;
+  text-indent: -27px; }
+
+[data-type="footnote-refs"] [data-type="footnote-ref"] [data-type="footnote-ref-content"]:before {
+  content: " "; }
 
 .os-teacher {
   display: none; }
